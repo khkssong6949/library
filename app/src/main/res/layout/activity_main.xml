@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#ffffff">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +18,8 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:src="@drawable/wb_picture"/>
+        android:src="@drawable/wb_picture"
+        app:civ_border_width="2dp"/>
 
     </LinearLayout>
 
