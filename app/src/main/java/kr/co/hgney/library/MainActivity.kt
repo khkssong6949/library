@@ -24,7 +24,7 @@ class MainActivity : BaseActivity() {
     }
 
     override fun setValues() {
-        Glide.with(mContext).load("https://s.marketwatch.com/public/resources/images/MW-HT282_dollar_ZG_20191014195738.jpg").into(profileImg)
+        Glide.with(mContext).load("http://s.marketwatch.com/public/resources/images/MW-HT282_dollar_ZG_20191014195738.jpg").into(profileImg)
     }
 
 }
